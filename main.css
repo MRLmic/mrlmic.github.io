@@ -1,0 +1,134 @@
+a {
+  padding: 10px;
+  text-align: left;
+}
+
+.about {
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: black;
+  line-height: 300%;
+  padding-top: 100px;
+  width: 60%;
+  height: auto;
+}
+
+body {
+  background: white;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.caption-wrapper {
+  width: 100%;
+  z-index: +10;
+}
+
+#myCarousel {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#about:hover {
+    background-color: rgba(230,230,250,0.65);
+}
+
+#contact:hover {
+  background-color: rgba(230,230,250,1);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  opacity: 1;
+  padding-bottom: 3px;
+}
+
+#github:hover {
+  background-color: rgba(240,240,250,0.75);
+  opacity: 1;
+}
+
+#linked-in:hover {
+  background-color: rgba(230,230,250,0.73);
+}
+
+#resume:hover {
+  background-color: rgba(230,230,250,0.70);
+  opacity: 0.85;
+}
+
+.navbar-brand {
+  color: navy !important;
+  font-size: 16px;
+  opacity: 0.65;
+  position: relative;
+  z-index:10;
+}
+
+nav {
+  color: navy;
+  opacity: 0.2;
+  z-index: +1;
+}
+
+.projects {
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  height: auto;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+}
+
+#jumbo {
+  background: linear-gradient(tomato, cornflowerblue);
+  color: #f2f2f2;
+  font-family: "Raleway", sans-serif;
+  margin-left: -20px;
+  margin-right: -40px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 110%;
+  z-index: -1;
+}
+
+img {
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #00c9cc;
+}
+
+section {
+  color: #00c9cc;
+}
+
+ul {
+  display: table;
+}
+
+.skills {
+  float: left;
+  font-family: "Lato", sans-serif;
+  margin-top: 2px;
+  margin: 7px;
+  padding: 0;
+}
+
+.skill-list {
+  display: table-cell;
+  font-size: 18px;
+  margin-top: 3px;
+  padding: 8px;
+  text-align: center;
+}
