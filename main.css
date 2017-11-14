@@ -11,7 +11,8 @@
   font-family: "Lato", sans-serif;
   font-size: 32px;
   margin: 5px;
-  text-align: center;
+  padding-left: 30px;
+  text-align: left;
   text-decoration: underline;
 }
 
@@ -20,7 +21,7 @@
   font-size: 32px;
   line-height: 40px;
   padding-bottom: 7px;
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
 }
 body {
@@ -66,6 +67,8 @@ body {
 nav {
   color: navy;
   opacity: 0.2;
+  position: sticky;
+  top: 3px;
   z-index: +1;
 }
 
@@ -98,7 +101,7 @@ section {
 }
 
 .skills {
-  font-family: "Lato", sans-serif;
+  font-family: "Jaldi", sans-serif;
   margin-top: 8px;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -106,8 +109,9 @@ section {
 }
 
 .skill-list {
-  font-size: 18px;
+  font-size: 32px;
   margin-top: 3px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -157,7 +161,11 @@ section {
 }
 
 .row-margin-bottom {
+    margin: 0 auto;
     margin-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 80px;
+    width: 100%;
 }
 
 .box-shadow {
@@ -167,4 +175,11 @@ section {
 
 .no-padding {
     padding: 0;
+}
+
+.parallax-window {
+  backdrop-filter: blur(30px);
+	min-height: 400px;
+	/*background: transparent;*/
+  opacity: 0.95;
 }
