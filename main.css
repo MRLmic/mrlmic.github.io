@@ -67,8 +67,6 @@ body {
 nav {
   color: navy;
   opacity: 0.2;
-  position: sticky;
-  top: 3px;
   z-index: +1;
 }
 
