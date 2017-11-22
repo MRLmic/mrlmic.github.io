@@ -7,6 +7,30 @@
   padding-top: 100px;
 }
 
+.devicon-git-plain {
+  display: inline;
+  margin: 0 5px;
+  max-width: 50px;
+  padding-top: 0px;
+}
+
+.devicon-git-plain path {
+  fill: #f44842;
+}
+
+.LI {
+  display: inline;
+  margin: 0 5px;
+  max-width: 55px;
+  padding-bottom: 27px;
+  padding-top: 0px;
+}
+
+.env .icon {
+  fill: transparent;
+  fill: #f4cd41;
+}
+
 .projects {
   font-family: "Lato", sans-serif;
   font-size: 32px;
@@ -30,6 +54,12 @@ body {
   text-align: left;
 }
 
+footer {
+  clear: both;
+  margin: 0 auto;
+  padding: 0 8%;
+  text-align: center;
+}
 #about:hover {
     background-color: rgba(230,230,250,0.65);
 }
