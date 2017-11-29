@@ -45,6 +45,7 @@
   padding-right: 6px;
   padding-top: 0px;
 }
+
 .LI {
   display: inline;
   margin: 0 5px;
@@ -57,7 +58,8 @@
   font-family: "Lato", sans-serif;
   font-size: 32px;
   margin: 5px;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
   text-align: left;
   text-decoration: underline;
 }
@@ -72,9 +74,13 @@
 }
 
 body {
-  background: white;
-  background-repeat: no-repeat;
-  text-align: left;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 footer {
@@ -125,13 +131,14 @@ nav {
 
 #jumbo {
   background: linear-gradient(tomato, cornflowerblue);
+  background-size: contain;
+  border-radius: 0;
   color: #f2f2f2;
   font-family: "Raleway", sans-serif;
-  margin-left: -20px;
-  margin-right: -40px;
+  margin: 0;
   padding-left: 0;
   padding-right: 0;
-  width: 110%;
+  min-width: 100%;
   z-index: -1;
 }
 
@@ -157,13 +164,20 @@ section {
   margin: 0 auto;
   margin-bottom: 10px;
   padding: 4px;
+  text-align: center;
 }
 
 .skill-list {
   font-size: 32px;
+  line-height: 60px;
+  list-style: none;
   margin-top: 3px;
-  padding: 10px;
-  text-align: center;
+  padding-left: 0;
+  /*text-align: center;*/
+}
+
+.first {
+  padding-left: 0;
 }
 
 .lib-panel {
@@ -182,13 +196,13 @@ section {
 
 
 .lib-panel .lib-row {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 5px;
 }
 
 .lib-panel .lib-row.lib-header {
     background-color: #FFFFFF;
     font-size: 20px;
-    padding: 10px 20px 0 20px;
+    padding: 10px 20px 0 5px;
 }
 
 .lib-panel .lib-row.lib-header .lib-header-seperator {
@@ -214,7 +228,7 @@ section {
 .row-margin-bottom {
     margin: 0 auto;
     margin-bottom: 20px;
-    padding-left: 120px;
+    padding-left: 90px;
     padding-right: 80px;
     width: 100%;
 }
